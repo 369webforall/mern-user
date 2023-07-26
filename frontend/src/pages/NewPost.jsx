@@ -53,7 +53,7 @@ const NewPost = () => {
   };
   return (
     <div>
-      <div className="bg-orange-400 text-center py-2">
+      <div className="bg-orange-400 text-center">
         {error && <h1>{error}</h1>}
       </div>
       <h1 className="text-center text-2xl">Add user</h1>

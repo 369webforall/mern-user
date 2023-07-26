@@ -28,3 +28,7 @@ mongoose
   });
 
 app.use('/', router);
+
+app.get('/api/v1/data', async () => {
+  let response = await fetch('');
+});
